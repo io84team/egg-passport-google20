@@ -1,0 +1,55 @@
+{
+    "author": {
+        "name": "Aben"
+    },
+    "bugs": {
+        "url": "https://github.com/io84team/egg-passport-google20/issues"
+    },
+    "bundleDependencies": false,
+    "ci": {
+        "version": "6, 7"
+    },
+    "dependencies": {
+        "debug": "^2.6.1",
+        "passport-google-oauth20": "^2.0.0"
+    },
+    "deprecated": false,
+    "description": "google passport 2.0 plugin for egg",
+    "devDependencies": {},
+    "eggPlugin": {
+        "name": "passportGoogle20",
+        "dependencies": [
+            "passport"
+        ]
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "files": [
+        "app.js",
+        "config"
+    ],
+    "homepage": "https://github.com/io84team/egg-passport-google20#readme",
+    "keywords": [
+        "egg",
+        "eggPlugin",
+        "egg-plugin",
+        "egg-passport",
+        "passport-google"
+    ],
+    "license": "MIT",
+    "name": "egg-passport-google",
+    "scripts": {
+        "autod": "autod",
+        "ci": "npm run lint && npm run cov",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/io84team/egg-passport-google20.git"
+    },
+    "version": "1.0.0"
+}
