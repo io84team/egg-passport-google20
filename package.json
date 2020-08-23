@@ -38,7 +38,7 @@
         "passport-google"
     ],
     "license": "MIT",
-    "name": "egg-passport-google",
+    "name": "egg-passport-google20",
     "scripts": {
         "autod": "autod",
         "ci": "npm run lint && npm run cov",
