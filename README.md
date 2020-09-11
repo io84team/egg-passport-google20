@@ -5,7 +5,7 @@ google passport 2.0 plugin for egg
 ## Install
 
 ```bash
-$ npm i egg-passport-google20 --save
+$ npm install @io84team/egg-passport-google20@1.0.0
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ npm i egg-passport-google20 --save
 // config/plugin.js
 exports.passportGoogle20 = {
     enable: true,
-    package: "egg-passport-google20"
+    package: "@io84team/egg-passport-google20"
 }
 ```
 
