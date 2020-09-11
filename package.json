@@ -29,6 +29,9 @@
         "app.js",
         "config"
     ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "homepage": "https://github.com/io84team/egg-passport-google20#readme",
     "keywords": [
         "egg",
@@ -38,7 +41,7 @@
         "passport-google"
     ],
     "license": "MIT",
-    "name": "egg-passport-google20",
+    "name": "@io84team/egg-passport-google20",
     "scripts": {
         "autod": "autod",
         "ci": "npm run lint && npm run cov",
